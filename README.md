@@ -23,6 +23,7 @@
    - Optimize hyperparameters to improve model performance (e.g., grid search or random search).
 
 ## PROJECT-2: Ratings of Guvi Courses
+## Link : https://guvifinalproject-em3nzrrp4qtpmyx82ianku.streamlit.app/
 
 **Objective:** Design a regression model to predict the ratings given by learners to Guvi courses.
 
@@ -45,6 +46,7 @@
    - Optimize hyperparameters to improve model performance.
 
 ## PROJECT-3: Instagram Influencers
+## Link : https://guvifinalproject-hi2rckqujt9fmmvmkbju82.streamlit.app/
 
 **Objective:** Analyze and answer questions based on the given dataset of Instagram influencers.
 
