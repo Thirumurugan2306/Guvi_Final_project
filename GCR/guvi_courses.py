@@ -6,7 +6,7 @@ from datetime import datetime
 from sklearn.preprocessing import LabelEncoder
 from streamlit_extras.grid import grid
 
-df=pd.read_csv('guvi_courses.csv')
+df=pd.read_csv('GCR/guvi_courses.csv')
 
 unique_courses=df['course_title'].unique()
 unique_subject=df['subject'].unique()
