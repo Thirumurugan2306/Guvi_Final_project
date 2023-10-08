@@ -16,7 +16,7 @@ unique_courses=df['course_title'].unique()
 best_model = joblib.load('GCR/best_regression_model.pkl')
 
 st.set_page_config(
-        page_title="Airbnb Data Analysis",
+        page_title="Guvi Courses Rating Predictor",
         layout="wide",
     )
 
