@@ -2,9 +2,18 @@ import streamlit as st
 from keras.preprocessing import image
 import numpy as np
 from keras.models import load_model
+import gdown
+
+# Function to download the model
+def download_model():
+    url = 'https://drive.google.com/uc?id=1sio8qFnkwIFzbSukC8UqLZ3COBD_7SGV'
+    output = 'IMC_saved_model.h5'
+    gdown.download(url, output, quiet=False)
+    return output
 
 # Load the saved model
-saved_model = load_model(r"C:\Users\thiru\Documents\Final Project\IMC\IMC_saved_model.h5")
+saved_model_path = download_model()
+saved_model = load_model(saved_model_path)
 
 # Function to predict image
 def predict_image(image_path):
