@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import re
 
 # Load the dataset (assuming it's in a CSV file named 'Influencer.csv')
-df = pd.read_csv('Influencer.csv')
+df = pd.read_csv('instagram_influencer/Influencer.csv')
 
 # Rename columns and clean data
 column_mapping = {col: col.replace(' ', '_') for col in df.columns}
